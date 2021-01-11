@@ -11,8 +11,8 @@ sudo apt-get install python3-venv
 ```
 mkdir mgarcia-challenge
 cd mgarcia-challenge
-git clone https://github.com/maurigarcia88/aivo-challenge.git
-cd aivo-challenge
+git clone https://github.com/maurigarcia88/countries-filter.git
+cd countries-filter
 ```
 ### Create and activate virtual environment
 
@@ -28,4 +28,8 @@ Run the live server in a terminal
 uvicorn main:app --reload
 ```
 Go to <http://127.0.0.1:8000/docs>
+Click on first GET tab, then on Try it out.
 
+Add required values.
+
+You may want to use additional endpoints
